@@ -6,11 +6,16 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
+header{
+    overflow: hidden;
+}
 nav{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 15%;
+    position: relative;
 }
 nav img{
     width: 200px;

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caspeerr</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="img/logo.png" alt="" />
+        <ul id="navlist">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <i class='bx bx-menu' id="menu-btn"></i>
+      </nav>
+      <div class="main">
+        <button class="btn">Order Now!</button>
+      </div>
+    </header>
+
+    <!-- --------------About-------------------- -->
+
+    <section class="about">
+      <div class="about-text">
+        <h2 class="h2">Our Best Foods</h2>
+        <p>
+          Order food online from one of the finest takeaways in town. Here at
+          Jay’s Fast Food in Montrose, and are proud to serve the surrounding
+          area. You can find our whole menu on our website, filled with
+          mouth-watering dishes and catering for all kinds of different tastes!
+        </p>
+        <button class="btn">Order Now!</button>
+      </div>
+      <div class="about-img">
+        <img src="img/pizza.webp" alt="" />
+      </div>
+    </section>
+
+    <!-- --------------------Products---------------------- -->
+    <section class="products">
+      <div class="products-row">
+        <div class="products-col">
+          <div class="col-img">
+            <img src="img/food1.webp" alt="" />
+          </div>
+          <button class="btn">Order Now!</button>
+        </div>
+        <div class="products-col">
+          <div class="col-img">
+            <img src="img/food2.webp" alt="" />
+          </div>
+          <button class="btn">Order Now!</button>
+        </div>
+        <div class="products-col">
+          <div class="col-img">
+            <img src="img/food3.webp" alt="" />
+          </div>
+          <button class="btn">Order Now!</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------CTA---------------------- -->
+    <div class="cta">
+      <h2>We Create Sweet Memories</h2>
+      <h3>THE BEST RESTAURANT IN CITY</h3>
+      <button class="btn">Order Now!</button>
+    </div>
+
+    <!-- ------------Popular Dishes------------------ -->
+
+    <section class="dish">
+      <h2 class="h2">Our Popular Dishes</h2>
+      <div class="products-row">
+        <div class="products-col">
+          <div class="col-img">
+            <img src="img/food4.webp" alt="" />
+          </div>
+          <button class="btn">Order Now!</button>
+        </div>
+        <div class="products-col">
+          <div class="col-img">
+            <img src="img/food5.webp" alt="" />
+          </div>
+          <button class="btn">Order Now!</button>
+        </div>
+        <div class="products-col">
+          <div class="col-img">
+            <img src="img/food6.webp" alt="" />
+          </div>
+          <button class="btn">Order Now!</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------Footer-------------- -->
+
+    <footer>
+      <h4>Kreiger-Dickens</h4>
+      <p>73-6360188</p>
+      <p>
+        Kreiger-Dickens 73-6360188 22 Kulamanu Street, Honolulu,hi, 96816 United
+        States
+      </p>
+      <p>+1 202-834-4875</p>
+      <p>info@caspeerr.com</p>
+      <hr>
+      <p class="cprt">Copyright @ Made by Kabir Ahmed</p>
+    </footer>
+  </body>
+  <script>
+    var menu= document.getElementById('menu-btn');
+    var list= document.getElementById('navlist')
+    list.style.right= '-200px';
+    menu.onclick= function(){
+        if(list.style.right=='-200px'){
+            list.style.right= '0px';
+        }
+        else{
+            list.style.right= '-200px';
+        }
+    }
+    
+  </script>
+</html>
